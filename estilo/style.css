@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
+}
+header {
+    background-color:black ;
+    height: 40%;
+    width: 100%;
+}
+
+header > h1 {
+    font-family: var(--fonte2);
+    font-size: 10vw;
+    color: white;
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    
+}
+header > p {
+    color: white;
+    font-size: medium;
+    text-align: center;
+    
+    background-color: black;
+    padding: 0px 0px 40px 0px;
+}
+header > p > a {
+    color: white;
+    text-decoration: none;
+    
+}
+header > p > a:hover {
+    text-decoration: underline;
+}
+section.normal {
+    font-family: var(--fonte3) ;
+    font-size: 3.5vw;
+   
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 70px 40px;
+    
+}
+ section.img1 {
+    background-image: url('../imagens/background001.jpg') ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center right;
+    padding: 70px 30px;
+ }
+ 
+ section.imgp > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.459);
+    font-family: var(--fonte3) ;
+    font-size: 3.5vw ;
+    color: white;
+    padding: 10px;
+    
+  }
+  section.img2 {
+    background-image: url('../imagens/background002.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center right;
+    padding: 70px 30px;
+  }
+  footer {
+    padding: 10px;
+    text-align: center;
+    height: 20px;
+    background-color: black;
+    color: white;
+  }
+  footer a {
+    color:  white;
+    text-decoration: none;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
